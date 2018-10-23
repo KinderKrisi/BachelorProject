@@ -1,0 +1,17 @@
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.deps.json
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.json
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.runtimeconfig.dev.json
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.dll
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\WebAPI.pdb
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cache
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cs
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfoInputs.cache
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.AssemblyInfo.cs
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CopyComplete
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.dll
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.pdb
