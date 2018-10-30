@@ -18,7 +18,7 @@ namespace Repositories
             _context = context;
         }
 
-        public async Task<User> CreateUser(RegistrationVM newUser)
+        public async Task<User> CreateUser(UserVM newUser)
         {
 
             bool IsAlreadyRegistred = _context.Users.Select(x => x.Email == newUser.Email).FirstOrDefault();

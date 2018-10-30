@@ -20,7 +20,7 @@ namespace WebAPI.Controllers
         }
         // POST api/user
         [HttpPost("[action]")]
-        public async Task<ActionResult<User>> CreateUserAsync(RegistrationVM newUser)
+        public async Task<ActionResult<User>> CreateUserAsync(UserVM newUser)
         {
 
             var user = await _userRepository.CreateUser(newUser);

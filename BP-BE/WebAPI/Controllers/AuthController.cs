@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Data;
+using Data.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Repositories.Interfaces;
 
 namespace WebAPI.Controllers
 {
@@ -11,11 +14,30 @@ namespace WebAPI.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        // GET: api/Auth
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IAuthRepository _authRepository;
+
+        public AuthController(IAuthRepository authRepository)
         {
-            return new string[] { "value1", "value2" };
+            _authRepository = authRepository;
+        }
+
+        // GET: api/Auth
+        [HttpGet("[action]")]
+        public async Task<ActionResult<User>> Login(string email, string password)
+        {
+            var userVM = new UserVM()
+            {
+                Email = email,
+                Password = password
+            }
+            ; 
+            var user = await _authRepository.Login(userVM);
+            if (user == null)
+            {
+                return BadRequest("Email or password are incorrect");
+            }
+
+            return Ok(user);
         }
 
         // GET: api/Auth/5

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Data;
+using Data.ViewModels;
 
 namespace Repositories.Interfaces
 {
-    public class IAuthRepository
+    public interface IAuthRepository
     {
+        Task<User> Login(UserVM userVM);
     }
 }

@@ -10,6 +10,6 @@ namespace Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        Task<User> CreateUser(RegistrationVM newUser);
+        Task<User> CreateUser(UserVM newUser);
     }
 }
