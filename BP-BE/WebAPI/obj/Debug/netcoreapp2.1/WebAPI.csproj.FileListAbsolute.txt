@@ -15,3 +15,6 @@ C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreap
 C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CopyComplete
 C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.dll
 C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.pdb
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\Repositories.dll
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\Repositories.pdb
+C:\Users\Martin Krisko\Desktop\Bachelor project\BP-BE\WebAPI\bin\Debug\netcoreapp2.1\Repositories.dll.config

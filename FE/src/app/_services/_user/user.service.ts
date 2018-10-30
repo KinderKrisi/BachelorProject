@@ -19,4 +19,7 @@ export class UserService {
       tap(returnedUser => console.log(returnedUser))
     )
   }
+  login(email: string, password: string) : Observable<User> {
+    return this.http.get<User>(this.userUrl)
+  }
 }
